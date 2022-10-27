@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header view renders correctly 1`] = `
+<div
+  className="calendar-header"
+  data-testid="header"
+>
+  <h2 />
+  <div>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        enableBackground="new 0 0 48 48"
+        fill="currentColor"
+        height={25}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        version="1"
+        viewBox="0 0 48 48"
+        width={25}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polygon
+          fill="#2196F3"
+          points="30.9,43 34,39.9 18.1,24 34,8.1 30.9,5 12,24"
+        />
+      </svg>
+    </button>
+    <button
+      className="btn"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        enableBackground="new 0 0 48 48"
+        fill="currentColor"
+        height={25}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        version="1"
+        viewBox="0 0 48 48"
+        width={25}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polygon
+          fill="#2196F3"
+          points="17.1,5 14,8.1 29.9,24 14,39.9 17.1,43 36,24"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

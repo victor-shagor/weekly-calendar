@@ -7,6 +7,49 @@
   pointer-events: none;
 }
 
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.calendar-container{
+  background-color: #F3F4F6;
+  width: 500px;
+  height: 25vh;
+}
+.calendar-header{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.btn{
+border: none;
+}
+
+.btn-date{
+  background-color: #F3F4F6;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
+.white{
+  color: white
+}
+.blue{
+  color: blue;
+}
+.bg-dark{
+  background-color: black;
+}
+.bg-blue{
+  background-color: blue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
